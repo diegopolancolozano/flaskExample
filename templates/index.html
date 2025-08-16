@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Café El Buen Sabor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Bienvenidos a Café El Buen Sabor</h1>
+    <p>El mejor café de la ciudad, servido con amor.</p>
+    <a href="{{ url_for('about') }}">Conoce nuestra historia</a> |
+    <a href="{{ url_for('contact') }}">Envíanos una sugerencia</a>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    text-align: center;
+}
+h1 {
+    color: #5a3e2b;
+}
+a {
+    color: #8b4513;
+    text-decoration: none;
+}
+textarea {
+    font-size: 14px;
+    padding: 5px;
+}
+button {
+    background-color: #8b4513;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+}
